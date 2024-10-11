@@ -5,6 +5,14 @@ Aplikasi ini adalah aplikasi pemrosesan citra berbasis web yang dikembangkan men
 
 Dikembangkan oleh **Roy Aziz Barera** - NIM 221524030.
 
+## Preview
+![alt text](images/image.png)
+![alt text](images/image-1.png)
+![alt text](images/image-2.png)
+![alt text](images/image-3.png)
+![alt text](images/image-4.png)
+![alt text](images/image-5.png)
+
 ## Fitur Utama
 Aplikasi ini dilengkapi dengan fitur-fitur berikut:
 
