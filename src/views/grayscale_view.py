@@ -9,11 +9,6 @@ from src.views.util_view import display_image
 
 
 
-
-
-
-
-
 def display_grayscale_image(image):
     image = convert_to_gray_scale(image)
     st.subheader("Grayscale Image")

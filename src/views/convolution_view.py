@@ -95,8 +95,20 @@ def display_apply_salt_and_pepper_noise(image):
     # Set noise percentage
     noise_percentage = st.slider("Noise percentage", min_value=0.0, max_value=1.0, value=0.0, step=0.01)
     
+    # pick color for salt and pepper
+    col_salt, col_pepper = st.columns(2)
+    
+    with col_salt:
+        salt_color = st.color_picker("Pick a color for salt", "#FFFFFF")
+    
+    with col_pepper:
+        pepper_color = st.color_picker("Pick a color for pepper", "#000000")
+    
+    salt_color = hex_to_rgb(salt_color)
+    pepper_color = hex_to_rgb(pepper_color)
+    
     # Apply salt and pepper noise
-    result_img = apply_salt_and_pepper_noise(image, noise_percentage)
+    result_img = apply_salt_and_pepper_noise(image, noise_percentage, salt_color, pepper_color)
     
     ori, result = st.columns(2)
     with ori:
