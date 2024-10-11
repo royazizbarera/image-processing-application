@@ -1,0 +1,8 @@
+
+
+# FILE PATHS
+DATABASE_PATH = 'databases'
+UPLOAD_FOLDER = f'{DATABASE_PATH}/uploads'
+
+
+
